@@ -216,3 +216,5 @@ sudo find /etc -name ORIG_* -print >> /home/$user/install.progress.txt
 
 chown $user.tomcat /home/$user/install.progress.txt
 
+response.end("Hello World!");
+
